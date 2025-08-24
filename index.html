@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder - Spoonacular</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍳 Recipe Finder</h1>
+    <input id="q" type="text" placeholder="Enter the ingridients">
+    <button id="clear">Clear</button>
+  </header>
+
+  <p id="status"></p>
+
+  <main id="grid"></main>
+
+  <div class="pagination">
+    <button id="prevPage">⬅ Prev</button>
+    <span id="pageInfo"></span>
+    <button id="nextPage">Next ➡</button>
+  </div>
+
+  <!-- Modal -->
+  <dialog id="modal">
+    <button id="modalClose">❌ Close</button>
+    <h2 id="modalTitle"></h2>
+    <img id="modalImg" alt="Meal image">
+    <h3>Ingredients</h3>
+    <div id="ing"></div>
+    <h3>Instructions</h3>
+    <p id="ins"></p>
+    <h3>Nutrition</h3>
+    <p id="calories"></p>
+    <p id="protein"></p>
+    <p id="carbs"></p>
+    <p id="fat"></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>

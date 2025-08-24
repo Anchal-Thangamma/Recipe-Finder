@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f7fb;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #ff7043;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+header input {
+  padding: 0.5rem;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+  margin-right: 0.5rem;
+}
+
+header button {
+  padding: 0.5rem 1rem;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background: #ffe0b2;
+}
+
+/* Status */
+#status {
+  text-align: center;
+  padding: 0.5rem;
+  font-style: italic;
+}
+
+/* Grid */
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Recipe cards */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 0.5rem 0;
+}
+
+.card button {
+  background: #ff7043;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #e64a19;
+}
+
+/* Pagination */
+.pagination {
+  text-align: center;
+  margin: 1rem;
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #ff7043;
+  color: white;
+}
+
+.pagination button:hover {
+  background: #e64a19;
+}
+
+/* Modal */
+dialog {
+  max-width: 600px;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+#modal img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+#modalClose {
+  float: right;
+  background: red;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
